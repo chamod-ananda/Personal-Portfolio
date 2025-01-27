@@ -106,9 +106,9 @@ This project is licensed under the MIT License. Feel free to use it as a referen
 
 If you have any questions or would like to connect, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+- **Email**: chamodananda9@gmail.com
+- **LinkedIn**: [Your LinkedIn Profile](www.linkedin.com/in/chamod-ananda-37a881346)
+- **GitHub**: [Your GitHub Profile](https://github.com/chamod-ananda)
 
 ---
 
