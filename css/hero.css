@@ -1,0 +1,81 @@
+#hero {
+    margin-top: 150px;
+}
+
+.hero-img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 300px;
+    margin-left: 100px;
+}
+
+.span-1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.span-2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.span-3 {
+    font-size: 2.5rem;
+    color: #6C3428;
+    text-shadow: 3px 4px 4px #F0DE36;
+    font-weight: 600;
+}
+
+.span-4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.span-5 {
+    font-size: 2.5rem;
+    color: #6C3428;
+    font-weight: 600;
+}
+
+.welcome-para {
+    line-height: 50px;
+}
+
+.welcome {
+    align-content: center;
+}
+
+.intro-para {
+    font-style: italic;
+    font-size: 1.3rem;
+    align-content: center;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.icon-container {
+    align-content: center;
+    margin-left: 702px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #6C3428;
+}
+
+.cv-button {
+    width: 200px;
+    height: 40px;
+    background-color: #6C3428;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border-color: #6C3428;
+    box-shadow: 2px 6px 8px #70483f;
+    font-weight: 600;
+    margin-left: 702px;
+}
+
+.cv-button:hover {
+    box-shadow: none;
+}

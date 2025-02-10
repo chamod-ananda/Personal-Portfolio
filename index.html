@@ -6,72 +6,47 @@
     <title>Personal Portfolio</title>
     <link rel="icon" href="/assets/images/Portfolio logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/hero.css">
+
 </head>
-<body style="background: linear-gradient(to right, #DCD9D7, #DDB592, #DEAC80);">
+<body>
     <header>
-        <nav style="position: fixed; width: 100%; top: 0; left: 0; 
-        background: linear-gradient(to right, #DCD9D7, #DDB592, #DEAC80); box-shadow: -4px 4px 13px #6C3428;
-        padding: 10px 5px; display: flex; align-items: center; justify-content: space-between;
-        border: 2px solid #3E001F; z-index: 1000;">
+        <nav class="index-nav">
 
-        <div style="display: flex; align-items: center;">
-            <img src="/assets/images/Portfolio logo.png" alt="Portfolio Logo" style="width: 50px; height: 50px; margin-right: 10px; padding: 0px 10px;">
-            <h3 style="color: #6B3503; font-size: 25px; margin: 0;">Chamod</h3>
-        </div>
+            <div class="index-div">
+                <img src="/assets/images/Portfolio logo.png" alt="Portfolio Logo">
+                <p>Chamod</p>
+            </div>
 
-        <ul style="list-style: none; display: flex; margin: 0; padding: 0;">
-
-            <li style="margin: 0 15px;">
-                <a href="#hero" style="color: #3D0D14; text-decoration: none; font-size: 18px; font-weight: bold;">Home</a>
-            </li>
-
-            <li  style="margin: 0 15px;">
-                <a href="#about" style="color: #3D0D14; text-decoration: none; font-size: 18px; font-weight: bold;">About Me</a>
-            </li>
-
-            <li style="margin: 0 15px;">
-                <a href="#education" style="color: #3D0D14; text-decoration: none; font-size: 18px; font-weight: bold;">Education</a>
-            </li>
-
-            <li style="margin: 0 15px;">
-                <a href="#skills" style="color: #3D0D14; text-decoration: none; font-size: 18px; font-weight: bold;">Skills</a>
-            </li>
-
-            <li style="margin: 0 15px;">
-                <a href="#projects" style="color: #3D0D14; text-decoration: none; font-size: 18px; font-weight: bold;">Projects</a>
-            </li>
-
-            <li style="margin: 0 15px;">
-                <a href="#contact" style="color: #3D0D14; text-decoration: none; font-size: 18px; font-weight: bold;">Contact</a>
-            </li>
-        </ul>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <main>
         <!-- hero section -->
         <section id="hero">            
-            <img src="/assets/images/Home page img.png" alt="My photograph" style="width: 300px; height: 300px;">
+            <img src="/assets/images/Home page img.png" alt="My photograph" class="hero-img">
 
-        <div>
-            <h2>GLAD YOU'RE HERE</h2>
-            <p>
-                <h2>Hey, I'm <b>Chamod Ananda</b></h2>
-                <h2>I'm a <b>Full Stack Developer</b></h2> 
+        <div class="welcome">
+            <p class="welcome-para">
+                <span class="span-1">GLAD YOU'RE HERE</span>
+                <br>
+                <span class="span-2">Hey, I'm</span> <span class="span-3">Chamod Ananda</span>
+                <br>
+                <span class="span-4">I'm a</span> <span class="span-5">Full Stack Developer</span>
             </p>
         </div>
 
-        <p >
-            <h3><i>
+        <div class="intro">
+            <p class="intro-para">
                 Hi, I'm Chamod, a Software Engineering
                 <br>
                 Undergraduate at IJSE, is a passionate about creating
@@ -79,12 +54,13 @@
                 impactful, efficient software solutions and is eager to
                 <br>
                 explore my journey and projects i the ever-evolving
-                <br> 
+                <br>
                 technology world.
-            </i></h3>
-        </p>
+            </p>
+        </div>
+        <br>
 
-        <div>
+        <div class="icon-container">
             <a href="https://www.linkedin.com/in/chamod-ananda-37a881346/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
@@ -93,11 +69,10 @@
             </a>
             <a href="https://www.facebook.com/profile.php?id=100008414839469" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
-            </a>            
+            </a>  
         </div>
-        <br>
 
-        <button>Download CV</button>
+        <button class="cv-button">Download CV</button>
         </section>
         <br>
         
