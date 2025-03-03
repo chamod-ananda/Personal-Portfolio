@@ -1,0 +1,46 @@
+#contact {
+  margin-bottom: 700px;
+}
+
+.box-container {
+  background: linear-gradient(to top, #dcd9d7, #ebcbaf, #deac80);
+  width: 1200px;
+  height: 550px;
+  position: absolute;
+  right: 165px;
+}
+
+.connect-img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  bottom: 170px;
+}
+
+.form {
+  position: absolute;
+  right: 75px;
+  bottom: 200px;
+}
+
+.form input {
+  width: 500px;
+  height: 35px;
+  gap: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.send-btn {
+  width: 150px;
+  height: 50px;
+  background-color: #a5876c;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 15px;
+  position: absolute;
+  right: 100px;
+  bottom: 90px;
+}
