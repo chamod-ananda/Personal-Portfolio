@@ -1,229 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <link rel="icon" href="/assets/images/Portfolio logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/hero.css">
-
-</head>
-<body>
+    <link rel="icon" href="/assets/images/Portfolio logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/hero.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/education.css" />
+    <link rel="stylesheet" href="/css/skill.css" />
+    <link rel="stylesheet" href="/css/projects.css" />
+  </head>
+  <body>
     <header>
-        <nav class="index-nav">
+      <nav class="index-nav">
+        <div class="index-div">
+          <img src="/assets/images/Portfolio logo.png" alt="Portfolio Logo" />
+          <p>Chamod</p>
+        </div>
 
-            <div class="index-div">
-                <img src="/assets/images/Portfolio logo.png" alt="Portfolio Logo">
-                <p>Chamod</p>
-            </div>
-
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <br>
+    <br />
     <main>
-        <!-- hero section -->
-        <section id="hero">            
-            <img src="/assets/images/Home page img.png" alt="My photograph" class="hero-img">
+      <!-- hero section -->
+      <section id="hero">
+        <img
+          src="/assets/images/Home page img.png"
+          alt="My photograph"
+          class="hero-img"
+        />
 
         <div class="welcome">
-            <p class="welcome-para">
-                <span class="span-1">GLAD YOU'RE HERE</span>
-                <br>
-                <span class="span-2">Hey, I'm</span> <span class="span-3">Chamod Ananda</span>
-                <br>
-                <span class="span-4">I'm a</span> <span class="span-5">Full Stack Developer</span>
-            </p>
+          <p class="welcome-para">
+            <span class="span-1">GLAD YOU'RE HERE</span>
+            <br />
+            <span class="span-2">Hey, I'm</span>
+            <span class="span-3">Chamod Ananda</span>
+            <br />
+            <span class="span-4">I'm a</span>
+            <span class="span-5">Full Stack Developer</span>
+          </p>
         </div>
 
         <div class="intro">
-            <p class="intro-para">
-                Hi, I'm Chamod, a Software Engineering
-                <br>
-                Undergraduate at IJSE, is a passionate about creating
-                <br>
-                impactful, efficient software solutions and is eager to
-                <br>
-                explore my journey and projects i the ever-evolving
-                <br>
-                technology world.
-            </p>
+          <p class="intro-para">
+            Hi, I'm Chamod, a Software Engineering
+            <br />
+            Undergraduate at IJSE, is a passionate about creating
+            <br />
+            impactful, efficient software solutions and is eager to
+            <br />
+            explore my journey and projects i the ever-evolving
+            <br />
+            technology world.
+          </p>
         </div>
-        <br>
+        <br />
 
         <div class="icon-container">
-            <a href="https://www.linkedin.com/in/chamod-ananda-37a881346/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/chamod-ananda" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100008414839469" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-            </a>  
+          <a
+            href="https://www.linkedin.com/in/chamod-ananda-37a881346/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/chamod-ananda" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100008414839469"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
         </div>
 
         <button class="cv-button">Download CV</button>
-        </section>
-        <br>
-        
-        <!-- About section -->
-         <section id="about">
-            <div>
-                <h1><b>About <span style="color: #6C3428;">Me</span></b></h1>
-            </div>
+      </section>
+      <br />
 
-            <p>
-                <h3>
-                    Hi, I'm Chamod Ananda, an enthusiastic
-                <br> 
-                undergraduate pursuing a degree in Software
-                <br> 
-                Engineering at the Institute of Java & Software
-                <br> 
-                Engineering (IJSE), Sri Lanka. With a passion for
-                <br> 
-                crafting innovative solutions and a strong foundation
-                <br> 
-                in programming and software development, I am driven
-                <br>
-                to transform ideas into impactful applications.
-                </h3>                        
-            </p>
-            <br>
+      <!-- About section -->
+      <section id="about">
+        <div>
+          <h1>
+            <b>About <span style="color: #6c3428">Me</span></b>
+          </h1>
+        </div>
 
-            <img src="/assets/images/about me img.png" alt="My photograph" style="width: 300px; height: 300px;">
-            <br>
+        <p class="about-para">
+          <span class="about-span"
+            >Hi, I'm Chamod Ananda, an enthusiastic undergraduate pursuing a
+            degree</span
+          >
+          in Software Engineering at the Institute of Java & Software
+          Engineering (IJSE), Sri Lanka. With a passion for crafting innovative
+          solutions and a strong foundation in programming and software
+          development, I am driven to transform ideas into impactful
+          applications.
+        </p>
+        <br />
 
-            <h3><span style="color: #6C3428;">Age</span>25</h3>
-            <h3><span style="color: #6C3428;">Residence</span>Sri Lanka</h3>
-            <h3><span style="color: #6C3428;">Address</span>Beliatta</h3>
-            <h3><span style="color: #6C3428;">Email</span>chamodananda9@gmail.com</h3>
-            <h3><span style="color: #6C3428;">Phone</span>+9477 5488035</h3>
-         </section>
-         <br>
+        <img
+          class="my-photo"
+          src="/assets/images/about me img.jpeg"
+          alt="My photograph"
+        />
+        <br />
 
-         <!-- Education section -->
-          <section id="education">
-            <div>
-                <h1><b>My <span style="color: #6C3428;">Education</span></b></h1>
-            </div>
-            <br>
+        <div class="my-details">
+          <h2><span class="span1" style="color: #6c3428">Age</span>25</h2>
+          <h2>
+            <span class="span2" style="color: #6c3428">Residence</span>Sri Lanka
+          </h2>
+          <h2>
+            <span class="span3" style="color: #6c3428">Address</span>Beliatta
+          </h2>
+          <h2>
+            <span class="span4" style="color: #6c3428">Email</span
+            >chamodananda9@gmail.com
+          </h2>
+          <h2>
+            <span class="span5" style="color: #6c3428">Phone</span>+9477 5488035
+          </h2>
+        </div>
+      </section>
+      <br />
 
-            <h3>Institute of Software Enginnering
-                <br>
-                From 2024
-                <br>
-                Undergraduate
-            </h3>
-            <br>
-            <img src="assets/images/IJSE img.png" alt="IJSE's Image" style="width: 100px; height: 150px;">
-            <br>
+      <!-- Education section -->
+      <section id="education">
+        <div>
+          <h1>
+            <b>My <span style="color: #6c3428">Education</span></b>
+          </h1>
+        </div>
+        <br />
 
-            <h3>Rajapaksa Central College - Weeraketiya
-                <br>
-                2010 - 2018
-                <br>
-                Completed
-            </h3>
-            <br>
-            <img src="assets/images/School img.png" alt="My School Image" style="width: 200px; height: 100px;">
-            <br>
-          </section>
-          <br>
+        <img
+          class="tree-structure"
+          src="/assets/images/tree img.png"
+          alt="tree structure image"
+        />
 
-          <!-- Skills Section -->
-           <section id="skills">
-            <div>
-                <h1><b>My <span style="color: #6C3428;">Skills</span></b></h1>
-            </div>
-            <br>
-            <img src="assets/images/java img.png" alt="Java Skill Image" style="width: 150px; height: 150px;">
-            <img src="assets/images/github img.png" alt="Github Skill Image" style="width: 150px; height: 150px;">
-            <img src="assets/images/mysql img.png" alt="MySQL Skill Image" style="width: 150px; height: 150px;">
-            <img src="assets/images/html5 img.png" alt="HTML5 Skill Image" style="width: 150px; height: 150px;">
-            <img src="assets/images/css3 img.png" alt="CSS3 Skill Image" style="width: 150px; height: 150px;">
-           </section>
-           <br>
+        <div class="ijse">
+          <h3>
+            Institute of Software Enginnering
+            <br />
+            From 2024
+            <br />
+            Undergraduate
+          </h3>
+          <br />
+          <img
+            class="ijse-img"
+            src="assets/images/IJSE img.png"
+            alt="IJSE's Image"
+          />
+        </div>
+        <br />
 
-           <!-- Projects Section -->
-            <section id="projects">
-                <div>
-                    <h1><b>My <span style="color: #6C3428;">Projects</span></b></h1>
-                </div>
-                <br>
+        <div class="school">
+          <h3>
+            Rajapaksa Central College - Weeraketiya
+            <br />
+            2010 - 2018
+            <br />
+            Completed
+          </h3>
+          <br />
+          <img
+            class="school-img"
+            src="assets/images/School img.png"
+            alt="My School Image"
+          />
+        </div>
+        <br />
+      </section>
+      <br />
 
-                <img src="assets/images/momentous img.png" alt="Momentous project image" style="width: 450px; height: 300px;">
-                <img src="assets/images/tictactoe img.png" alt="TicTacToe project image" style="width: 450px; height: 300px;">
-            </section>
-            <br>
+      <!-- Skills Section -->
+      <section id="skills">
+        <div>
+          <h1>
+            <b>My <span style="color: #6c3428">Skills</span></b>
+          </h1>
+        </div>
+        <br />
 
-            <!-- Contact Section -->
-             <section id="contact">
-                <div>
-                    <h1><b>Connect with <span style="color: #6C3428;">Me</span></b></h1>
-                </div>
-                <br>
+        <div class="skill-container">
+          <div class="skill">
+            <span><img src="/assets/images/java.png" alt="java logo" /></span>
+            <span class="skill-name">Java</span>
+          </div>
 
-                <img src="assets/images/connect img.png" alt="Contact page image" style="width: 400px; height: 400px;">
-                <br>
+          <div class="skill">
+            <span
+              ><img src="/assets/images/github.png" alt="github logo"
+            /></span>
+            <span class="skill-name">Github</span>
+          </div>
 
-                <input type="text" placeholder="Name">
-                <br>
-                <input type="email" placeholder="Email">
-                <br>
-                <input type="number" placeholder="Phone">
-                <br>
-                <input type="text" placeholder="Message">
-                <br>
+          <div class="skill">
+            <span><img src="/assets/images/mysql.png" alt="mysql logo" /></span>
+            <span class="skill-name">MySQL</span>
+          </div>
 
-                <button>Send</button>
-             </section>
+          <div class="skill">
+            <span><img src="/assets/images/html5.png" alt="html5 logo" /></span>
+            <span class="skill-name">HTML 5</span>
+          </div>
+
+          <div class="skill">
+            <span><img src="/assets/images/css3.png" alt="css3 logo" /></span>
+            <span class="skill-name">CSS 3</span>
+          </div>
+
+          <div class="skill">
+            <span
+              ><img src="/assets/images/bootstrap.png" alt="bootstrap logo"
+            /></span>
+            <span class="skill-name">Bootstrap</span>
+          </div>
+        </div>
+      </section>
+      <br />
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div>
+          <h1>
+            <b>My <span style="color: #6c3428">Projects</span></b>
+          </h1>
+        </div>
+        <br />
+
+        <div class="project-container">
+          <div class="project">
+            <span
+              ><img
+                src="/assets/images/momentous.png"
+                alt="momentous project image"
+            /></span>
+            <span class="project-name">
+              <a
+                href="https://github.com/chamod-ananda/Momentous-Event-Planning-Desktop-Application.git"
+                target="_blank"
+                >MOMENTOUS Event Planning Desktop Application (MVC
+                Architecture)</a
+              ></span
+            >
+          </div>
+
+          <div class="project">
+            <span
+              ><img
+                class="tic-tac-toe"
+                src="/assets/images/tic-tac-toe.png"
+                alt="tic tac toe project image"
+            /></span>
+            <span class="project-name"
+              ><a
+                href="https://github.com/chamod-ananda/Tic_Tac_Toe.git"
+                target="_blank"
+                >Tic Tac Toe Game with AI Technology</a
+              ></span
+            >
+          </div>
+
+          <div class="project">
+            <span
+              ><img
+                src="/assets/images/momentous.png"
+                alt="momentous project image"
+            /></span>
+            <span class="project-name"
+              ><a
+                href="https://github.com/chamod-ananda/Momentous-Layered-Architecture-.git"
+                target="_blank"
+                >MOMENTOUS Event Planning Desktop Application (Layered
+                Architecture)</a
+              ></span
+            >
+          </div>
+        </div>
+      </section>
+      <br />
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div>
+          <h1>
+            <b>Connect with <span style="color: #6c3428">Me</span></b>
+          </h1>
+        </div>
+        <br />
+
+        <img
+          src="assets/images/connect img.png"
+          alt="Contact page image"
+          style="width: 400px; height: 400px"
+        />
+        <br />
+
+        <input type="text" placeholder="Name" />
+        <br />
+        <input type="email" placeholder="Email" />
+        <br />
+        <input type="number" placeholder="Phone" />
+        <br />
+        <input type="text" placeholder="Message" />
+        <br />
+
+        <button>Send</button>
+      </section>
     </main>
 
     <footer>
-        <div>
-            <img src="/assets/images/footer img.jpeg" alt="My photograph" style="width: 90px; height: 90px;">
-            <h2><b>Chamod Ananda</b></h2>
-            <h2><i>Full Stack Developer</i></h2>
-            <br>
-            <img src="assets/images/Portfolio logo.png" alt="Logo" style="width: 50px; height: 50px;">
-            <br>
-            <h2><b>Contact Info</b></h2>
-            <br>
-            <i class="fa-solid fa-phone"></i>
-            +94 775488035
-            <br>
-            <i class="fa-solid fa-envelope"></i>
-            chamodananda9@gmail.com
-            <br>
-            <i class="fa-solid fa-globe"></i>
-            Beliatta, Sri Lanka - 82400
-            <br>
+      <div>
+        <img
+          src="/assets/images/footer img.jpeg"
+          alt="My photograph"
+          style="width: 90px; height: 90px"
+        />
+        <h2><b>Chamod Ananda</b></h2>
+        <h2><i>Full Stack Developer</i></h2>
+        <br />
+        <img
+          src="assets/images/Portfolio logo.png"
+          alt="Logo"
+          style="width: 50px; height: 50px"
+        />
+        <br />
+        <h2><b>Contact Info</b></h2>
+        <br />
+        <i class="fa-solid fa-phone"></i>
+        +94 775488035
+        <br />
+        <i class="fa-solid fa-envelope"></i>
+        chamodananda9@gmail.com
+        <br />
+        <i class="fa-solid fa-globe"></i>
+        Beliatta, Sri Lanka - 82400
+        <br />
 
-            <a href="https://www.linkedin.com/in/chamod-ananda-37a881346/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/chamod-ananda" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100008414839469" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
+        <a
+          href="https://www.linkedin.com/in/chamod-ananda-37a881346/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/chamod-ananda" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100008414839469"
+          target="_blank"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
 
-            <a href="#hero">
-                <i class="fa-solid fa-chevron-up"></i>
-            </a>            
-        </div>        
+        <a href="#hero">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

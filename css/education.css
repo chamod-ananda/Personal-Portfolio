@@ -1,0 +1,33 @@
+#education {
+  margin-bottom: 650px;
+}
+
+.tree-structure {
+  width: 200px;
+  height: 500px;
+  position: absolute;
+  right: 700px;
+}
+
+.ijse {
+  text-align: right;
+  position: absolute;
+  left: 330px;
+  top: 1955px;
+}
+
+.ijse-img {
+  width: 100px;
+  height: 150px;
+}
+
+.school {
+  position: absolute;
+  right: 280px;
+  top: 2070px;
+}
+
+.school-img {
+  width: 400px;
+  height: 150px;
+}

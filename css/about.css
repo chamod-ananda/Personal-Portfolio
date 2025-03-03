@@ -1,0 +1,59 @@
+#about {
+  margin-top: 150px;
+  margin-bottom: 350px;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.about-para {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.about-span {
+  margin-left: 20px;
+}
+
+.my-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1020px;
+  right: 65px;
+  box-shadow: 10px 9px 17px #6c3428;
+  margin-bottom: 0;
+}
+
+.my-details {
+  position: absolute;
+  right: 88px;
+}
+
+.my-details span {
+  margin-right: 12px;
+}
+
+.my-details .span1 {
+  margin-right: 75px;
+}
+
+.my-details .span3 {
+  margin-right: 31px;
+}
+
+.my-details .span4 {
+  margin-right: 53px;
+}
+
+.my-details .span5 {
+  margin-right: 50px;
+}

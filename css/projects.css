@@ -1,0 +1,41 @@
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.project {
+  margin: 50px;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  align-items: center;
+  background-color: #3f241e;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px #925a4e;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project:hover {
+  box-shadow: none;
+}
+
+.project img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.project-name {
+  font-size: 1.2rem;
+}
+
+.project span a {
+  text-decoration: none;
+  color: white;
+}
