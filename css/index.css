@@ -61,3 +61,46 @@ body {
 .index-nav li a:hover {
   text-shadow: 1px 1px 1px brown;
 }
+
+/* #burger {
+  color: brown;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-panel {
+  background-color: burlywood;
+  color: white;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: right 0.5s ease-in-out;
+}
+
+.menu-panel ul {
+  list-style: none;
+  padding: 50px 20px;
+}
+
+.menu-panel ul li {
+  margin-bottom: 16px;
+}
+
+.menu-panel ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.close-btn {
+  background-color: transparent;
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+} */

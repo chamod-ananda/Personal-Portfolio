@@ -38,6 +38,19 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <!-- <i class="fa-solid fa-bars" id="burger" aria-hidden="true"></i>
+      <nav class="menu-panel" id="menu-panel-id">
+        <button class="close-btn" id="btn-close">&times;</button>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav> -->
     </header>
     <br />
     <main>
@@ -279,13 +292,15 @@
                 alt="momentous project image"
             /></span>
             <span class="project-name">
-              <a
-                href="https://github.com/chamod-ananda/Momentous-Event-Planning-Desktop-Application.git"
-                target="_blank"
-                >MOMENTOUS Event Planning Desktop Application (MVC
-                Architecture)</a
-              ></span
+              MOMENTOUS Event Planning Desktop Application (MVC
+              Architecture)</span
             >
+            <a
+              href="https://github.com/chamod-ananda/Momentous-Event-Planning-Desktop-Application.git"
+              target="_blank"
+            >
+              <button>More Info</button>
+            </a>
           </div>
 
           <div class="project">
@@ -296,12 +311,14 @@
                 alt="tic tac toe project image"
             /></span>
             <span class="project-name"
-              ><a
-                href="https://github.com/chamod-ananda/Tic_Tac_Toe.git"
-                target="_blank"
-                >Tic Tac Toe Game with AI Technology</a
-              ></span
+              >Tic Tac Toe Game with AI Technology</span
             >
+            <a
+              href="https://github.com/chamod-ananda/Tic_Tac_Toe.git"
+              target="_blank"
+            >
+              <button>More Info</button>
+            </a>
           </div>
 
           <div class="project">
@@ -311,13 +328,15 @@
                 alt="momentous project image"
             /></span>
             <span class="project-name"
-              ><a
-                href="https://github.com/chamod-ananda/Momentous-Layered-Architecture-.git"
-                target="_blank"
-                >MOMENTOUS Event Planning Desktop Application (Layered
-                Architecture)</a
-              ></span
+              >MOMENTOUS Event Planning Desktop Application (Layered
+              Architecture)</span
             >
+            <a
+              href="https://github.com/chamod-ananda/Momentous-Layered-Architecture-.git"
+              target="_blank"
+            >
+              <button>More Info</button>
+            </a>
           </div>
         </div>
 
@@ -412,5 +431,19 @@
         <i class="fa-solid fa-chevron-up"></i>
       </a>
     </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const menuPanel = document.getElementById("menu-panel-id");
+      const closeBtn = document.getElementById("btn-close");
+
+      burger.addEventListener("click", () => {
+        menuPanel.classList.add("active");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menuPanel.classList.remove("active");
+      });
+    </script>
   </body>
 </html>
