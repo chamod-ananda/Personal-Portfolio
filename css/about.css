@@ -26,6 +26,7 @@ h1 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  object-fit: cover;
   position: absolute;
   top: 1020px;
   right: 65px;
